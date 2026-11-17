@@ -1,0 +1,10 @@
+*.exe
+*.obj
+*.ptx
+*.cubin
+*.fatbin
+*.o
+*.log
+.vs/
+.vscode/
+__pycache__/
