@@ -400,11 +400,11 @@ Matrix dimensions: **256 x 256**
 ### D. Transpose Speedup
 
 $$
-Speedup = \frac{0.220}{0.113}
+\text{Speedup} = \frac{0.220}{0.113}
 $$
 
 $$
-\boxed{Speedup \approx 1.95 \times}
+\text{Speedup} \approx 1.95\times
 $$
 
 The coalesced transpose is approximately **1.95 times faster** than the uncoalesced implementation.
@@ -412,25 +412,23 @@ The coalesced transpose is approximately **1.95 times faster** than the uncoales
 #### Execution Time Reduction
 
 $$
-Reduction =
-\frac{0.220-0.113}{0.220}
-\times 100
+\text{Reduction} =
+\frac{0.220 - 0.113}{0.220} \times 100
 $$
 
 $$
-\boxed{Reduction \approx 48.64\%}
+\text{Reduction} \approx 48.64\%
 $$
 
 #### Effective Bandwidth Improvement
 
 $$
-Improvement =
-\frac{74.15-38.11}{38.11}
-\times 100
+\text{Improvement} =
+\frac{74.15 - 38.11}{38.11} \times 100
 $$
 
 $$
-\boxed{Improvement \approx 94.57\%}
+\text{Improvement} \approx 94.57\%
 $$
 
 The optimized transpose achieves approximately **94.57% higher effective bandwidth** in this measured run.
